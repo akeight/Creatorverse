@@ -3,34 +3,26 @@ import { useRoutes } from 'react-router-dom'
 import ShowCreators from './pages/ShowCreators'
 import ViewCreator from './pages/ViewCreator'
 import AddCreator from './pages/AddCreator'
+import Layout from './components/Layout'
 import EditCreator from './pages/EditCreator'
 
 function App() {
-  const routes = useRoutes([
+  const routes = [
     {
       path: '/',
-      element: <ShowCreators />,
+      element: <Layout />,
+      children: [
+        {path: '/view/:id', element: <ViewCreator /> },
+        {path: '/add-creator', element: <AddCreator /> },
+        {path: '/view/:id/edit', element: <EditCreator /> },
+        {path: '/view', element: <ShowCreators />}
+      ]
     },
-    {
-      path: '/view/:id',
-      element: <ViewCreator />,
-    },
-    {
-      path: '/add',
-      element: <AddCreator />,
-    },
-    {
-      path: '/edit/:id',
-      element: <EditCreator />,
-    },
-  ])
+  ]
 
-  return (
-    <>
-      {routes}
-    
-    </>
-  )
+  const element = useRoutes (routes)
+  return element
+
 }
 
 export default App
