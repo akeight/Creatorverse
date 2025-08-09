@@ -31,7 +31,7 @@ const EditForm = ({ creator, setCreator, onSubmit, onDelete }) => {
                 type="text"
                 name="description"
                 value={creator.description}
-            o   nChange={handleChange}
+                onChange={handleChange}
             />
 
             <label>Social Media Link:</label>
@@ -45,7 +45,7 @@ const EditForm = ({ creator, setCreator, onSubmit, onDelete }) => {
     
 
         <input type="submit" value="Save Changes" />
-        <input type="button" className="deleteBtn" onClick={onDelete} value="Delete" />
+        <input type="button" className="deleteBtn pico-color-red-600" onClick={onDelete} value="Delete" />
     </form>
   );
 };

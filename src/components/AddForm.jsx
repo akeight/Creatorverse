@@ -44,7 +44,7 @@ const AddForm = ({onSubmit, onChange, creator}) => {
             </small>
             <input
               type="text"
-              name="website"
+              name="url"
               value={creator.url}
               onChange={onChange}
             />
