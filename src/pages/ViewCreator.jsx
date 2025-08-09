@@ -35,7 +35,7 @@ const CreatorDetailsPage = () => {
     if (!creator) return <p>No creator found!</p>;
 
     return (
-        <div>
+        <div className="container-fluid">
             <h2><i class="fa-whiteboard fa-semibold fa-circle-info"></i> Creator Details</h2>
             <CreatorDetails creator={creator} />
             <div className="primary-content">

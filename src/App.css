@@ -9,11 +9,19 @@
 }
 
 #submit {
-  background: #0172AD
+  background: #0172AD;
+}
+
+h1 {
+  color: #02659A
+}
+
+h2, h3 {
+  color: #014C75;
 }
 
 .card-image {
-  height: 200px;
+  height: 150px;
   width: auto;
 }
 
@@ -21,3 +29,50 @@
   height: 250px;
   width: auto;
 }
+
+.grid {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+justify-content: space-evenly;
+margin-top: 4rem;
+}
+
+.card {
+  height: auto;
+  width: 450px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.details-card {
+  width: 650px;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+nav, nav ul {
+  gap: 0.5rem;
+}
+
+footer  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-card footer {
+  flex-direction: row-reverse;
+}
+

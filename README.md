@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - *👉🏿 Creatorverse*
 
-Submitted by: **👉🏿 your name here**
+Submitted by: **👉🏿 Allyson Keightley**
 
-About this web app: **👉🏿 app description here**
+About this web app: **👉🏿 Creatorverse is a front-end focused full-stack app, where users have the ability at add their favorite Instagram accounts to a collection. Within the collection, they can view and edit details and delete creators as needed. There is also a convenient light/dark mode toggle for easy viewing on the eyes.**
 
-Time spent: **👉🏿 6** hours
+Time spent: **👉🏿 7** hours
 
 ## Required Features
 
@@ -12,8 +12,8 @@ The following **required** functionality is completed:
 
 <!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [x] **A logical component structure in React is used to create the frontend of the app**
-- [ ] **At least five content creators are displayed on the homepage of the app**
-- [ ] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [x] **API calls use the async/await design pattern via Axios or fetch()**
 - [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
 - [x] **Each content creator has their own unique URL**
@@ -29,28 +29,27 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] A light/dark theme is enabled with a toggle button. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='./public/creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+
 GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
+
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+This web app was very enjoyable to put together! After completing Web102 this summer, it wasn't difficult at all. The majority of learning spent on it was reading throught the documentation and implementing PicoCSS- that was new to me.
 
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright [👉🏿 2025] [👉🏿 Allyson Keightley]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

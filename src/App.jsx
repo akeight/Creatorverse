@@ -13,10 +13,10 @@ function App() {
       path: '/',
       element: <Layout />,
       children: [
-        {path: '/creators/:id', element: <ViewCreator /> },
+        {path: '/:id', element: <ViewCreator /> },
         {path: '/add-creator', element: <AddCreator /> },
         {path: '/edit/:id', element: <EditCreator /> },
-        {path: '/creators', element: <ShowCreators />}
+        {path: '/', element: <ShowCreators />}
       ]
     },
   ]

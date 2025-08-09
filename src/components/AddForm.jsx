@@ -1,9 +1,7 @@
 const AddForm = ({onSubmit, onChange, creator}) => {
     return ( 
          <>
-    <form onSubmit={onSubmit} className="hard-shadow">
-      <h2><i class="fa-whiteboard fa-semibold fa-plus"></i>Add Content Creator</h2>
-
+    <form onSubmit={onSubmit}>
         <div className="container-fluid">
           <fieldset>  
             <label>Name:</label>

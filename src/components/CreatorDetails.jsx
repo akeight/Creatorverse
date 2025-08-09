@@ -7,19 +7,25 @@ const CreatorDetails = ({creator}) => {
   const formatted = localDate.toLocaleString();
 
   return (
-    <article>
-        <header>
-          <img className="creator-image" src={creator.imageURL} alt={creator.name} />
-          <h2>{creator.name}</h2>
+    <div className="details container">
+    <article className="details-card">
+        <header className="card-header">
+          <img className="card-image" src={creator.imageURL} alt={creator.name} />
+          <a href={`https://instagram.com/${creator.url}`} target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-2xl fa-instagram"></i>
+          </a>
         </header>
-      <p><i class="fa-brands fa-xl fa-instagram"></i> @{creator.url}</p>
-      <p>Description: {creator.description}</p>
-      <p>Created: {formatted}</p>
-      {/* Add more spicy details here */}
-      <footer>
-       <span><i class="fa-whiteboard fa-semibold fa-pen-to-square"></i></span> <Link to={`/edit/${creator.id}`}>Edit Creator</Link>
-      </footer>
+        <hgroup>
+          <h2>{creator.name}</h2>
+            <p>{creator.description}</p><br />
+            <small><em>Created: {formatted}</em></small><br />
+        </hgroup>
+        <footer>
+          
+          <Link to={`/edit/${creator.id}`}><span><i class="fa-whiteboard fa-semibold fa-pen-to-square"></i></span><sub>Edit</sub></Link>
+        </footer>
     </article>
+    </div>
   );
 }
 

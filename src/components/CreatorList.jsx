@@ -7,9 +7,9 @@ function CreatorList({ creators }) {
 
   return (
   
-    <div className="grid">
+    <div className="grid details">
       {creators.map((creator) => (
-       <div className="container" key={creator.id}>
+       <div key={creator.id}>
          <Card creator={creator} />
        </div>
       ))}

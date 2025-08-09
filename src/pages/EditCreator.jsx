@@ -45,7 +45,7 @@ const EditCreator = () => {
             console.error("Error updating creator:", error);
         } else {
             console.log("Updated!", data);
-            window.location = "/creators"; // redirect to view page
+            window.location = "/"; // redirect to view page
         }
     };
 
@@ -61,14 +61,14 @@ const EditCreator = () => {
         if (error) {
             console.error("Error deleting creator:", error);
         } else {
-            window.location = '/creators'; // or just "/"
+            window.location = "/"; 
         }
     };
 
 
     return (
         <div>
-            <h2 className="home-landing"><i class="fa-whiteboard fa-semibold fa-pen-to-square"></i> Edit Creator</h2>
+            <h2><i class="fa-whiteboard fa-semibold fa-pen-to-square"></i> Edit Creator</h2>
             <EditForm creator={creator} setCreator={setCreator} onSubmit={editCreator} onDelete={deleteCreator}/>
         </div>
         

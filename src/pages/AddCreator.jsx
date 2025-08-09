@@ -21,7 +21,7 @@ const AddCreator = () => {
                 console.error('Error adding creator:', error);
             } else {
                 console.log('Creator added:', data);
-        window.location = "/creators";
+        window.location = "/";
     }
   };
 
@@ -31,6 +31,7 @@ const AddCreator = () => {
 
     return (
         <div>
+            <h2><i class="fa-whiteboard fa-semibold fa-plus"></i>Add Content Creator</h2>
             <AddForm creator={creator} onChange={handleChange} onSubmit={addCharacter} />
         </div>
     );

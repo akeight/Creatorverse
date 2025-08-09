@@ -23,12 +23,12 @@ const Layout = () => {
             <header className="container-fluid">
                 <nav>
                     <ul>
-                        <li><h1>Creatorverse</h1></li>
+                        <Link to="/"><li><h1>Creatorverse</h1></li></Link>
                     </ul>
                     <ul>
-                        <li><Link to="creators"><div role="button" class="outline" tabindex="0">View All Creators</div></Link></li>
+                        <li><Link to="/"><div role="button" class="outline" tabindex="0">View All Creators</div></Link></li>
                         <li><Link to="add-creator"><div role="button" tabindex="0"><i class="fa-whiteboard fa-semibold fa-circle-plus"></i>New Creator</div></Link></li>
-                        <li><button id="toggle-theme" onClick={toggleTheme}>
+                        <li><button id="toggle-theme" class="outline" onClick={toggleTheme}>
                             {theme === "dark" ? 
                                 <i class="fa-whiteboard fa-semibold fa-sun"></i> 
                             : 
