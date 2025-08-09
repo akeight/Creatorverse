@@ -2,5 +2,22 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+.deleteBtn {
+  background-color: #EE402E;
+}
+
+#submit {
+  background: #0172AD
+}
+
+.card-image {
+  height: 200px;
+  width: auto;
+}
+
+.creator-image {
+  height: 250px;
+  width: auto;
 }

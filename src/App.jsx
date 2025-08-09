@@ -1,4 +1,5 @@
-import './App.css'
+import "./style.scss"
+import "./App.css"
 import { useRoutes } from 'react-router-dom'
 import ShowCreators from './pages/ShowCreators'
 import ViewCreator from './pages/ViewCreator'
@@ -12,10 +13,10 @@ function App() {
       path: '/',
       element: <Layout />,
       children: [
-        {path: '/view/:id', element: <ViewCreator /> },
+        {path: '/creators/:id', element: <ViewCreator /> },
         {path: '/add-creator', element: <AddCreator /> },
-        {path: '/view/:id/edit', element: <EditCreator /> },
-        {path: '/view', element: <ShowCreators />}
+        {path: '/edit/:id', element: <EditCreator /> },
+        {path: '/creators', element: <ShowCreators />}
       ]
     },
   ]
