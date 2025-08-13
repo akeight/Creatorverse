@@ -2,7 +2,7 @@
 
 Submitted by: **👉🏿 Allyson Keightley**
 
-About this web app: **👉🏿 Creatorverse is a front-end focused full-stack app, where users have the ability at add their favorite Instagram accounts to a collection. Within the collection, they can view and edit details and delete creators as needed. There is also a convenient light/dark mode toggle for easy viewing on the eyes.**
+About this web app: **👉🏿 Creatorverse is a front-end focused full-stack app, built with React, Vite, React Router, Supabase and PicoCSS. Users have the ability at add their favorite Instagram accounts to a collection. Within the collection, they can view and edit details and delete creators as needed. There is also a convenient light/dark mode toggle for easy viewing on the eyes.**
 
 Time spent: **👉🏿 7** hours
 
